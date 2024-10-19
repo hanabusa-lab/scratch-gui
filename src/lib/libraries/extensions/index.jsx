@@ -326,7 +326,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="ライトセンサー"
+                defaultMessage="光をみつけるセンサー"
                 description="Name for the 'Light Sensing' extension"
                 id="gui.extension.lightsensing.name"
             />
@@ -337,7 +337,7 @@ export default [
         insetIconURL: lightSensingInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="カメラでライトをみつける"
+                defaultMessage="カメラで光をみつける"
                 description="Description for the 'Light Sensing' extension"
                 id="gui.extension.lightsensing.description"
             />
