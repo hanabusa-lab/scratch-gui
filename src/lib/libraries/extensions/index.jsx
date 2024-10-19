@@ -326,7 +326,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="光みつけるセンサー"
+                defaultMessage="光をみつけるセンサー"
                 description="Name for the 'Light Sensing' extension"
                 id="gui.extension.lightsensing.name"
             />
