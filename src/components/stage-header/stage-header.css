@@ -60,9 +60,12 @@
     display: block;
     border: 1px solid $ui-black-transparent;
     border-radius: $form-radius;
-    width: calc(2rem + 2px);
+    /*width: calc(2rem + 2px);
     height: calc(2rem + 2px);
-    background: $ui-white;
+    background: $ui-white;*/
+    width: calc(1.8rem);
+    height: calc(1.8rem);
+    background: gray;
     padding: 0.375rem;
     user-select: none;
     cursor: pointer;
