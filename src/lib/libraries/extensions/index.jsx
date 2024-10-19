@@ -46,7 +46,12 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+//add for workshop
+import lightSensingIconURL from './lightSensing/light-sensing.png';
+import lightSensingInsetIconURL from './lightSensing/light-sensing-small.svg';
+
 export default [
+    
     {
         name: (
             <FormattedMessage
@@ -317,5 +322,31 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="光みつけるセンサー"
+                description="Name for the 'Light Sensing' extension"
+                id="gui.extension.lightsensing.name"
+            />
+        ),
+        extensionId: 'lightSensing',
+        collaborator: 'hanabusa Lab.',
+        iconURL: lightSensingIconURL,
+        insetIconURL: lightSensingInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="カメラで光をみつける"
+                description="Description for the 'Light Sensing' extension"
+                id="gui.extension.lightsensing.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: false,
+        bluetoothRequired: false,
+        helpLink: 'https://hanabusa-lab.org/'
+
+    }  
 ];

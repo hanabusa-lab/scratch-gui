@@ -27,7 +27,11 @@ const baseConfig = new ScratchWebpackConfigBuilder(
         resolve: {
             fallback: {
                 Buffer: require.resolve('buffer/'),
-                stream: require.resolve('stream-browserify')
+                stream: require.resolve('stream-browserify'),
+                //add for workshop
+                fs: false,
+                path: false,
+                crypto: false
             }
         }
     })
