@@ -58,7 +58,7 @@ const getStageDimensions = (stageSize, isFullScreen) => {
         //stageDimensions.width = stageDimensions.height + (stageDimensions.height / 3);
         //for workshop
         stageDimensions.width =1280;
-        stageDimensions.height = 900;
+        stageDimensions.height = 800;
 
         if (stageDimensions.width > window.innerWidth) {
             stageDimensions.width = window.innerWidth;
