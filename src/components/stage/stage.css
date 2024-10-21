@@ -11,6 +11,7 @@
 
     border-radius: $space;
     border: $stage-standard-border-width solid $ui-black-transparent;
+    
     overflow: hidden;
 
     /* @todo: This is for overriding the value being set somewhere. Where is it being set? */
@@ -27,7 +28,8 @@
 }
 
 .stage.full-screen {
-    border: $stage-full-screen-border-width solid rgb(126, 133, 151);
+    /*border: $stage-full-screen-border-width solid rgb(126, 133, 151);*/
+    border: $stage-full-screen-border-width solid black;
 }
 
 .with-color-picker {
